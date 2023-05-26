@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-control {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #008844;
+}
+
+.forgot-password {
+    text-align: center;
+}
+
+.login_signup {
+    text-align: center;
+}
