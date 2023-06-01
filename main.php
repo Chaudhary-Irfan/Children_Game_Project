@@ -7,16 +7,30 @@
 </head>
 
 <body>
+
     <!-- Navigation bar -->
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="login_signin.php" target="--">Sign In</a></li>
-            <li><a href="login_signup.php" target="--">Sign Up</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="main.php">Home</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropdown-item">Categories</button>
+                        <div class="dropdown-content">
+                            <select name="" id="">
+                                <option value=""><a href="#">Easy</a></option>
+                                <option value=""><a href="#">Normal</a></option>
+                                <option value=""><a href="#">Difficult</a></option>
+                            </select>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="login.php" target="--">Log In</a></li>
+                <li><a href="register.php" target="--">Register</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Main content area -->
     <div class="container">
